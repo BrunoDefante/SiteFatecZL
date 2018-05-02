@@ -9,6 +9,7 @@
 
 		<div id="sub_menu">
 			<ul>
+				<li><a href="index.php">Home</a></li>
 				<li><a class="institucional">Institucional</a></li>
 				<li><a href="cursos.php">Cursos</a></li>
 				<li><a href="#">Vestibular</a></li>

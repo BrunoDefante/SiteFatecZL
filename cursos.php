@@ -12,7 +12,7 @@
 	<body>		
 		<div class="camada_popup_descricao">
 			<div class="div_click">
-				
+				<!--Div para fechamento da div blur-->
 				
 			</div>
 			<div class="blur_coordenador movimento">
@@ -21,7 +21,7 @@
 			<div class="info_coordenador movimento">
 				<div class="div_fechar">
 					<p class="btn_fechar_info">Fechar</p>
-				<span class="span_fechar_info"></span>
+					<span class="span_fechar_info"></span>
 					
 				</div>
 				<p class="titulo_coordenador">Coordenador</p>
@@ -40,7 +40,7 @@
 			
 			</div>
 				
-			
+			<!-- Div modal para o mostrar as informações do curso-->
 			<div class="popup_descricao">
 								
 				
@@ -54,8 +54,9 @@
 				</div>			
 				
 				<div class="div_descricao">
+					
 					<div class="margem">
-
+						
 
 					</div>
 				
@@ -63,9 +64,16 @@
 				
 				
 				
+				<!-- informações do curso: grade, coordenador, pojeto-->
 				<div class="rodape_descricao">
-					
+					<div class="div_grade">
+						<p class="txt">Grade do Curso</p>
+						<div class="span_abs g">
+							<span class="span_rodape"></span>
+						</div>
+				</div>
 					<hr class="linha_rodape"/>
+					
 					
 					<div class="div_coordenador">						
 						<p class="txt">Coordenador do Curso</p>
@@ -74,9 +82,9 @@
 						</div>
 					</div>
 
-					<div class="div_grade">
-						<p class="txt">Grade do Curso</p>
-						<div class="span_abs g">
+					<div class="div_projeto">
+						<p class="txt">Projeto Pedagógico</p>
+						<div class="span_abs p">
 							<span class="span_rodape"></span>
 						</div>
 					</div>
